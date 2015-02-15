@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>fontmin-app</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="build/index.css" rel="stylesheet">
+    <script>
+    window.node = window.require;
+    </script>
+</head>
+
+<body>
+    <article id="output-config" style="display: none;">
+        <section id="output-header">
+            <h2>input text</h2>
+            <button id="cancel-button">cancel</button>
+            <button id="submit-button">submit</button>
+        </section>
+        <section>
+            <textarea name="text" id="glyph-textarea"></textarea>
+        </section>
+    </article>
+    <script src="build/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "fontmin-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "fontmin as an OS X, Linux and Windows app",
+  "license": "MIT",
+  "main": "main.js",
+  "devDependencies": {
+    "clean-css": "^2.2.13",
+    "each-async": "^1.0.0",
+    "fontmin": "^0.4.0",
+    "myth": "^1.1.1",
+    "object-assign": "^1.0.0",
+    "uglify-js": "^2.4.15"
+  }
+}
